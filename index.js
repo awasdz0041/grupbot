@@ -1,7 +1,6 @@
-const { Composer } = require ('micro-bot')
-
-const bot = new Composer
-
+const Telegraf = require('telegraf')
+BOT_TOKEN = '1182083268:AAGfDX3fhq5S3-qaIb3ELvYiThMD-uHm8yk'
+const bot = new Telegraf(BOT_TOKEN)
 bot.start((ctx) => {
     ctx.reply("Bot Başlatıldı")
 
