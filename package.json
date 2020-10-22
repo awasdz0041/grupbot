@@ -10,5 +10,6 @@
   "author": "burak aydin",
   "license": "ISC",
   "dependencies": {
+    "telegraf": "3.38.0"
   }
 }
